@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Project Information</title>
+    <link rel="stylesheet" href="css/loginpages.css">
+    <link rel="stylesheet" href="css/menu_style.css">
+</head>
+<body>
+<ul class="topnav">
+    <li><a href="customer.html">Menu</a></li>
+</ul>
+<div class="myDiv">
+    <h2>&nbsp;Project Information</h2>
+    <br><center>
+    <form action="CustomerServlet" method="post">
+        <table>
+            <tr>
+                <td>Title</td>
+                <td><label>
+                    <input type="text" name="title" required="required" class="custom-input"/>
+                </label></td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><label>
+                    <input type="text" name="description" required="required" class="custom-input"/>
+                </label></td>
+            </tr>
+            <tr>
+                <td>Project Type</td>
+                <td>
+                    <label>
+                        <select required="required" name="project_type" class="select-css" style="width:120px;">
+                            <option value="Private">Private</option>
+                            <option value="Public">Public</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>
+                    <label>
+                        <select required="required" name="category" class="select-css" style="width:135px;">
+                            <option value="Server App">Server App</option>
+                            <option value="Web App">Web App</option>
+                            <option value="Android App">Android App</option>
+                            <option value="Desktop App">Desktop App</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Sub Category</td>
+                <td>
+                    <label>
+                        <select required="required" name="sub_category" class="select-css" style="width:135px;">
+                            <option value="Commercial">Commercial</option>
+                            <option value="Corporate">Corporate</option>
+                        </select>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+        <br>
+        <input type="reset" name ="reset" value="Clear" class="button2"/>
+        <input type="submit" name ="submit" value="Submit" class="button2"/>
+        <br><br>
+    </form></center>
+</div>
+</body>
+</html>

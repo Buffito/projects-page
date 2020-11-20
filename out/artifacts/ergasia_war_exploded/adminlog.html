@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+	<link rel="stylesheet" href="css/loginpages.css">
+</head>
+<body>
+<div class="myDiv">
+<h2>&nbsp;&nbsp;Admin Login</h2>
+<center><p>
+    <form action="AdminServlet" method="post">
+        <label class="label">User ID:</label>
+                    <input type="text" name="username" required="required" class="custom-input"/><br>
+                     <label class="label">Password:</label>
+                    <input type="password" name="password" required="required" class="custom-input"/>
+                
+                <br><br>
+					<input type=button onClick="parent.location='index.jsp'" value='Menu' class="button">
+					<input type="submit" value="Login" class="button"/>
+    </form></p></center></div>
+</body>
+</html>

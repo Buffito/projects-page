@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find User</title>
+
+     <link rel="stylesheet" href="css/loginpages.css">
+    <link rel="stylesheet" href="css/menu_style.css">
+</head>
+<body>
+<ul class="topnav">
+  <li><a href="index.jsp">Menu</a></li>
+  <li class="right"><a href="log_out_page.jsp">Log Out</a></li>
+</ul>
+<div class="myDiv">
+    <h2>&nbsp;Find User</h2>
+<br><center>
+<form action="GuestServlet" method="post">
+        <table>
+            <tr>
+                <td>User ID:</td>
+                <td><label>
+                <input type="text" name="username" id="username" required class="custom-input"/>
+                </label></td>
+            </tr>
+        </table><br>
+        <input type="submit" name="submit" value="Find User" class="button2"/>
+    </form><br>
+</center></div>
+
+</body>
+</html>

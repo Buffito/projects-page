@@ -1,0 +1,186 @@
+
+.myDiv {
+ margin: 0;
+  position: absolute;
+  width: 500px;
+  top: 30%;
+  right: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  border:2px solid #5d666d;
+  -webkit-border-top-left-radius:6px;
+  -webkit-border-top-right-radius:6px;
+  -moz-border-radius-topleft:6px;
+  -moz-border-radius-topright:6px;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;  
+  font-size:12pt; /* or whatever */
+  color: white;
+}
+.myDiv h2 {
+  padding:4px;
+  color:#fff;
+  margin:0;
+  background-color:#353f47;
+  font-size:12pt; /* or whatever */
+}
+.myDiv h3 {
+  padding:4px;
+  color:#fff;
+  margin:0;
+
+  font-size:12pt; /* or whatever */
+}
+.myDiv p {
+  padding:4px; 
+}
+body
+{
+
+font-family:Verdana;
+color: black;
+background-repeat:no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: #181a1b;
+}
+
+
+.center
+{
+text-align:center;
+}
+
+.button {
+  display: inline-block;
+  padding: 3px 10px;
+  font-family:Verdana;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #105387;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0px #999;
+  width: 100px;
+  height: 25px;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 3px 10px;
+  font-family:Verdana;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #105387;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 0px #999;
+  width: 140px;
+  height: 30px;
+}
+.button:hover {background-color: #0066ff}
+.button2:hover {background-color: #0066ff}
+
+.button:active {
+  background-color: #0066ff;
+  box-shadow: 0 0px #666;
+  transform: translateY(4px);
+}
+
+.button2:active {
+  background-color: #0066ff;
+  box-shadow: 0 0px #666;
+  transform: translateY(4px);
+}
+
+.custom-input {
+        width:200px;
+        border:1px solid #ccc;
+        margin:1px;
+        padding:3px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing:content-box;
+        -moz-box-sizing:content-box;
+        -webkit-box-sizing:content-box;
+        box-sizing:content-box;
+    }
+    
+.label {
+  width:80px;
+  text-align:left;
+  display: inline-block;
+}
+    
+.label2 {
+  width:120px;
+  text-align:left;
+  display: inline-block;
+}
+
+.select-css { 
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1;
+    padding: .6em 1.4em .5em .8em;
+    width: 25%;
+    max-width: 100%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    /* note: bg image below uses 2 urls. The first is an svg data uri for the arrow icon, and the second is the gradient. 
+        for the icon, if you want to change the color, be sure to use `%23` instead of `#`, since it's a url. You can also swap in a different svg icon or an external image reference
+        
+    */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+      linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    /* arrow icon position (1em from the right, 50% vertical) , then gradient position*/
+    background-position: right .7em top 50%, 0 0;
+    /* icon size, then gradient */
+    background-size: .65em auto, 100%;
+}
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+/* Hover style */
+.select-css:hover {
+    border-color: #888;
+}
+/* Focus style */
+.select-css:focus {
+    border-color: #aaa;
+    /* It'd be nice to use -webkit-focus-ring-color here but it doesn't work on box-shadow */
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+}
+
+/* Set options to normal weight */
+.select-css option {
+    font-weight:normal;
+}
+.select-css:disabled:hover, .select-css[aria-disabled=true] {
+    border-color: #aaa;
+}
+
+

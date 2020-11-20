@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="jquery-1.12.4">
+    <archive path="/home/shade/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/JetBrains/IntelliJIdea2020.1/javascript/extLibs/http_code.jquery.com_jquery-1.12.4.js" />
+  </library>
+  <library name="jquery-ui">
+    <archive path="/home/shade/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/JetBrains/IntelliJIdea2020.1/javascript/extLibs/__code.jquery.com_ui_1.12.1_themes_base_jquery-ui.css" />
+    <archive path="/home/shade/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/JetBrains/IntelliJIdea2020.1/javascript/extLibs/http_code.jquery.com_ui_1.12.1_jquery-ui.js" />
+  </library>
+</eclipse-userlibraries>
+

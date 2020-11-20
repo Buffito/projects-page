@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+        <link rel="stylesheet" href="css/loginpages.css">
+        <link rel="stylesheet" href="css/menu_style.css">
+</head>
+<body>
+    <ul class="topnav">
+  <li><a href="index.jsp">Menu</a></li>
+</ul>
+    <div class="myDiv">
+    <h2>&nbsp;User Information</h2>
+    <br><center>
+    <form action="GuestServlet" method="post">
+            <table>
+                <tr>
+                    <td>Username</td>
+                    <td><label>
+                        <input type="text" name="username" required="required" class="custom-input"/>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><label>
+                        <input type="password" name="password" required="required" class="custom-input"/>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><label>
+                        <input type="email" name="email" required="required" class="custom-input"/>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><label>
+                        <input type="text" name="first_name" required="required" class="custom-input"/>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    <td><label>
+                        <input type="text" name="last_name" required="required" class="custom-input"/>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label>
+                        <select required="required" name="gender" class="select-css" style="width:120px;">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account type </td>
+                    <td>
+                        <label>
+                        <select required="required" name="specialty" class="select-css" style="width:120px;">
+                                <option value="Customer">Customer</option>
+                                <option value="Developer">Developer</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+            <br>
+            <input type="reset" name ="reset" value="Clear" class="button2"/>
+            <input type="submit" name ="submit" value="Submit" class="button2"/>
+            <br><br>          
+        </form></center>
+    </div>
+</body>
+</html>
